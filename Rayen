@@ -1,6 +1,7 @@
+
 local Window = Library.CreateLib("TITLE", DarkTheme"
 game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "-سڪـربـت الـمـطور ريان V0.1-")
-
+local Tab = Window:NewTab("ريان")
 local args = {
     [1] = "PickingRPNameColor",
     [2] = Color3.fromRGB(7, 167, 0), -- Amarelo
