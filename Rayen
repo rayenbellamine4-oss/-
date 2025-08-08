@@ -258,32 +258,32 @@ Sound.SoundId = "rbxassetid://71517955953236";
 Sound:Play();
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "سكربت المطور خليفه";
-    Text = "☑️⚜️سكربت المطور خليفه⚜️☑️"; -- ARAB TEAM
+    Title = "سكربت المطور ريان";
+    Text = "☑️⚜️سكربت المطور ريان⚜️☑️"; -- 
     Duration = 5;
 })
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "مطور سكربت IRAQI هويه";
+    Title = "مطور سكربت Tunisia هويه";
     Text = "☑️⚜️كل شهر او اقل تحديث⚜️☑️"; -- ARAB TEAM
     Duration = 5;
 })
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
     Title = "لاتنسى تابعني تيك يوزر  ";
-    Text = "☑️⚜️تيك n5li12⚜️☑️"; -- ARAB TEAM
+    Text = "☑️⚜️ itzrayen7 تيك ⚜️☑️"; -- 
     Duration = 5;
 })
 local args = {
     [1] = "RolePlayBio",
-    [2] = "🦅 سكربت المطور خليفه 🦅"
+    [2] = "🦅 سكربت المطور  ريان 🦅"
 }
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/speedwave1/speed_wave/refs/heads/main/i2att")))()
 
 MakeWindow({
   Hub = {
-    Title = "v0.1 خليفه تحديث | HUB",
+    Title = "v0.1 ريان تحديث | HUB",
     Animation = "🌀جار التشغيل السكربت🌀"
   },
   Key = {
@@ -312,24 +312,24 @@ MinimizeButton({
 
 local Main = MakeTab({Name = "🦅 حقوق المطور 🦅"})
 local Image = AddImageLabel(Main, {
-  Name = "خليفه | HUB",
+  Name = " | HUB",
   Image = "rbxassetid://115881843808544"
 })
-AddParagraph(Main, {"هنا كل قنوات المطور خليفه"})
+AddParagraph(Main, {"هنا كل قنوات المطور "})
 AddButton(Main, {
   Name = "انسخ قناة تيك توك ",
   Callback = function()
-    setclipboard('n5li12')
+    setclipboard('')
   end
 })
 AddButton(Main, {
   Name = "انسخ اسم حسابي روب ",
   Callback = function()
-    setclipboard('Nemrxxx3')
+    setclipboard('')
   end
 })
 AddParagraph(Main, {"فريق المطور خليفه اج ار هم الافضل"})
-AddParagraph(Main, {"سكربت المطور خليفه"})
+AddParagraph(Main, {"سكربت المطور "})
 local Label = AddTextLabel(Main, "السيرفر")
 -- Create a label to show the number of players
 local playerCountLabel = AddTextLabel(Main, "الاعبين في السيرفر: " .. #game.Players:GetPlayers())
