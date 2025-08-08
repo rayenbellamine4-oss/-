@@ -10,7 +10,7 @@ Duration = 5;
 
 })
 
-game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "-سڪـربـت الـمـطور خليفه V0.1-")
+game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "-سڪـربـت الـمـطور ريان V0.1-")
 
 local args = {
     [1] = "PickingRPNameColor",
@@ -21,7 +21,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eCo
 
 local args = {
     [1] = "RolePlayBio",
-    [2] ="-SCRIPT kalefaa V0.1-"
+    [2] ="-SCRIPT 
+	rayenV0.1-"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1RPNam1eTex1t"):FireServer(unpack(args))
