@@ -1,14 +1,4 @@
-wait(0.1)
 
-game.StarterGui:SetCore("Send Notification", {
-
-Title = "";
-
-Text = ""; -- سكربت المطور ريان الرعد --
-
-Duration = 5;
-
-})
 
 game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "-سڪـربـت الـمـطور ريان V0.1-")
 
