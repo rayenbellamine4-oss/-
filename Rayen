@@ -1,3 +1,18 @@
+
+wait(0.1)
+
+game.StarterGui: SetCore ("Send Notification", {
+
+Title = "";
+
+Text = ""; -- ARAB TEAM
+
+Duration = 5;
+
+})
+
+
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("الصنع سكربت ريان", DarkTheme"
 game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "-سڪـربـت الـمـطور ريان V0.1-")
