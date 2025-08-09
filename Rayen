@@ -2,9 +2,9 @@ wait(0.1)
 
 game.StarterGui: SetCore ("Send Notification", {
 
-Title = "";
+Title = "تم تحميل سكربت منور";
 
-Text = ""; -- ARAB TEAM
+Text = ""; -تم تحميل- ARAB TEAM
 
 Duration = 5;
 
